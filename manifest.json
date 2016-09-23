@@ -9,12 +9,23 @@
 		"128": "assets/icon-128.png"
 	},
 	"app": {
-    "background": {
-      "scripts": ["background.js"]
-    }
-  },
+      "background": {
+        "scripts": ["background.js"]
+      }
+    },
 	"offline_enabled": true,
 	"permissions": [
-	  "storage"
-	]
+	  "storage",
+	  "usb"
+	],
+	"optional_permissions": [
+		{
+		    "usbDevices": [
+		    {
+		       "vendorId": 1003,
+		       "productId": 40960
+		    }
+	       ]
+	   }
+	 ] 
 }

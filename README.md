@@ -1,3 +1,3 @@
-# Basic Scaffold for a Chrome Packaged App
+# Chrome App for EspoTek Labrador board
 
  
