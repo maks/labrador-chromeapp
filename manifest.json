@@ -17,15 +17,5 @@
 	"permissions": [
 	  "storage",
 	  "usb"
-	],
-	"optional_permissions": [
-		{
-		    "usbDevices": [
-		    {
-		       "vendorId": 1003,
-		       "productId": 40960
-		    }
-	       ]
-	   }
-	 ] 
+	]
 }

@@ -7,9 +7,9 @@
   chrome.app.window.create('index.html', {
   	id: "scaffoldID",
     innerBounds: {
-      height: 240,
-      width: 320,
-      top: 100
+      height: 480,
+      width: 640,
+      top: 10
     }
   });
 });

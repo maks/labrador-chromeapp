@@ -14,5 +14,14 @@ h1 {
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   font-size: 18px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 10px;
+}
+
+p {
+  margin: 5em;
+  text-align: center;
+}
+
+#device-info {
+ 
 }
