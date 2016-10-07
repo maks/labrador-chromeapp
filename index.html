@@ -16,11 +16,29 @@
     </p>
 
      <p id="board-controls">
+		<div><canvas id="scope-display"></canvas></div> 
+     
     	<button id="set-digital">Set Digital</button>
     	<select id="set-digital-val" name="select">
 		  <option value="0">0</option> 
 		  <option value="1">1</option>
 		</select>
+
+		Voltage: <input type="text" minlength="5" readonly /> 
+
+		<h3>Waveform Generator CH-1</h3>
+		<select name="select">
+		  <option value="1">Sine</option> 
+		  <option value="2">Square</option>
+		  <option value="3">Triangle</option>
+		  <option value="4">Sawtooth</option>
+		</select>
+
+		<h3>Frequency</h3>
+
+		<h3>Amplitude</h3>
+
+		<h3>DC Offset</h3>
     </p>
 
     <p id="device-info" />
